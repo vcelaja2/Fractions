@@ -71,8 +71,6 @@ public class Main {
                     System.out.println("Nesedí soubor " +outputFiles[i].toString());
                     mismatch = true;
                     }
-                    System.out.println(Utils.hash(outputFiles[i].toString(), "MD5")); 
-                    System.out.println(Utils.hash(refFiles[i].toString(), "MD5")); 
                 }
                 catch(NoSuchAlgorithmException e){
                     mismatch = true;
